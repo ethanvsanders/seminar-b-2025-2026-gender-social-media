@@ -6,4 +6,14 @@ date: "2026-03-05"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+
+d_socialmedia <- read_csv('../data/BES-2017-f2f-gender-fb-tw.csv')
+
 ```
+
+# hypothesis
+
+H1 Gender is associated with Facebook use
+
